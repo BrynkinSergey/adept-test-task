@@ -240,21 +240,21 @@ export const CompaniesPage = () => {
           </CompaniesPageDrawerHeader>
           <CompaniesPageDrawerContent>
             <TextInput
-              placeholder={"Имя"}
-              defaultValue={newEmployeeData.name}
+              placeholder={"Фамилия"}
+              defaultValue={newEmployeeData.surname}
               onChange={(value) =>
                 setNewEmployeeData((prev) => ({ ...prev, name: value }))
               }
             />
             <TextInput
-              placeholder={"Фамилия"}
-              defaultValue={newEmployeeData.surname}
+              placeholder={"Имя"}
+              defaultValue={newEmployeeData.name}
               onChange={(value) =>
                 setNewEmployeeData((prev) => ({ ...prev, surname: value }))
               }
             />
             <TextInput
-              placeholder={"Роль"}
+              placeholder={"Должность"}
               defaultValue={newEmployeeData.role}
               onChange={(value) =>
                 setNewEmployeeData((prev) => ({ ...prev, role: value }))

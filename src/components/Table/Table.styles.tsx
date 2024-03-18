@@ -37,7 +37,7 @@ export const TableHeader = styled.div({
   width: "100%",
   maxWidth: "inherit",
   height: "44px",
-  padding: "0 8px",
+  paddingRight: "8px",
   alignItems: "center",
 
   fontSize: "14px",

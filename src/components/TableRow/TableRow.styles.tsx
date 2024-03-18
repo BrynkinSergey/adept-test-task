@@ -6,7 +6,7 @@ export const TableRowRoot = styled.div<{ selected: boolean }>(
     width: "100%",
     maxWidth: "inherit",
     display: "flex",
-    padding: "4px 8px",
+    padding: "4px 8px 4px 0",
     borderBottom: "1px solid lightgrey",
     alignItems: "center",
     gap: "4px",

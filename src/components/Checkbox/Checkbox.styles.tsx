@@ -6,6 +6,7 @@ export const CheckboxRoot = styled.div<{ isSomeChecked: boolean }>(
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    padding: "0 8px",
 
     "& input[type=checkbox]": {
       WebkitAppearance: "none",
