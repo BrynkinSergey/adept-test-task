@@ -243,14 +243,14 @@ export const CompaniesPage = () => {
               placeholder={"Фамилия"}
               defaultValue={newEmployeeData.surname}
               onChange={(value) =>
-                setNewEmployeeData((prev) => ({ ...prev, name: value }))
+                setNewEmployeeData((prev) => ({ ...prev, surname: value }))
               }
             />
             <TextInput
               placeholder={"Имя"}
               defaultValue={newEmployeeData.name}
               onChange={(value) =>
-                setNewEmployeeData((prev) => ({ ...prev, surname: value }))
+                setNewEmployeeData((prev) => ({ ...prev, name: value }))
               }
             />
             <TextInput
