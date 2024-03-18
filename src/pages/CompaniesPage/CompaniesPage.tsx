@@ -352,8 +352,8 @@ export const CompaniesPage = () => {
                       isChecked={checkedEmployeeIds.includes(employee.id)}
                       key={employee.id}
                       onToggle={() => handleToggleEmployee(employee.id)}>
-                      <div>{employee.name}</div>
                       <div>{employee.surname}</div>
+                      <div>{employee.name}</div>
                       <div>{employee.role}</div>
                     </TableRow>
                   ))}
